@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<head>
+    <style type="text/css">
+        body {
+            background: skyblue;
+        }
+
+        h1 {
+            color: skyblue;
+        }
+
+       
+    </style>
+
+</head>
+
+<div style = "background-color:white;" class="jumbotron">
+    <h1> <b> Hi, I'm Josh Tillson!</b></h1>
+    <p class="lead">Welcome to my Personal Website. We're currently under construction!</p>
+</div>
+
+
+<div>
+
+
+</div>
+
+
+<body>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+</body>
